@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;  
+}
+
+/* Menubar start */
+.menubar {
+	background-color: green;
+	font-family: 'Rubik', sans-serif;
+}
+.menubar ul li {
+	display: inline-block;
+	padding: 10px 26px;
+	transition: .4s;
+	border-right: 1px solid #e2e2e0;
+    margin-left: -4px;
+    cursor: pointer;
+}
+.menubar ul li:hover{
+    background-color: rgb(13, 172, 13);
+    transition: .4s;
+}
+.menubar ul li:first-child {
+	border-left: 1px solid #e2e2e0;
+	margin-left: -1px;
+}
+.menubar ul li:hover a{
+    color: white;
+    transition: .4s;
+}
+.menubar ul li a {
+	text-decoration: none;
+	color: rgb(226, 226, 226);
+	font-size: 20px;
+    font-weight: 500;
+    transition: .4s;
+}
+.menubar ul {
+    text-align: center;
+}
+
+/* Banner part start */
+.banner-part {
+    background: url(1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center 10%;
+    text-align: center;
+	color: white;
+	padding: 172px;
+}
+.banner-part h1 {
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	background-color: #008000a3;
+	display: inline-block;
+	padding: 9px 36px;
+}
+.banner-part p {
+	width: 70%;
+	margin: auto;
+	font-size: 19px;
+	line-height: 28px;
+	background-color: #191a1994;
+	padding: 21px 20px;
+}
